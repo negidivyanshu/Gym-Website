@@ -1,0 +1,133 @@
+/* Custom Styles */
+/* font */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cool-vibes {
+    font-family: 'Cool Vibes', cursive;
+}
+/*  */
+.navbar-nav .nav-link{
+    padding-left: 10px !important;
+}
+header.jumbotron {
+    background-image: url('https://i.pinimg.com/564x/0c/ad/d5/0cadd5fdec5471df9b0fd50303b4aa43.jpg');
+    background-size: cover;
+    /* Ensures the image is contained within the section */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    border-radius: 0;
+    color: white;
+    gap: 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Ensures text is centered and wraps properly */
+    padding: 20px;
+    /* Adds padding to ensure text doesn't touch the edges */
+    box-sizing: border-box;
+    /* Ensures padding is included in the element's width */
+}
+
+header.jumbotron h1 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+    /* Adds spacing below the header */
+}
+
+header.jumbotron p {
+    font-weight: bold;
+    max-width: 600px;
+    /* Limits the width of the text to ensure it wraps nicely */
+    margin: 0 auto;
+    /* Centers the text block */
+
+}
+
+/* #about img {
+    border-radius: 8px;
+} */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* plan */
+#plans .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding: 20px!important;
+}
+
+#plans .card:hover {
+    transform: scale(1.05);
+}
+
+#plans .card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+#plans .card-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#plans .list-group-item {
+    border: none;
+    padding: 0.75em;
+}
+
+/* Custom border style to match other sections */
+.border-custom {
+    border: 2px solid #ddd;
+    /* Example border style; adjust as needed */
+    border-radius: 8px;
+    /* Match the border radius */
+    padding: 20px;
+    /* Padding inside the border */
+    background-color: #fff;
+    /* Background color of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for better appearance */
+}
+
+/* Ensure consistent spacing between form elements */
+.form-group {
+    margin-bottom: 1.5rem;
+    /* Spacing between form fields */
+}
+
+/* Style for the submit button */
+.contact-form-container .btn-primary {
+    width: 100%;
+    /* Full-width button */
+    padding: 10px;
+    /* Padding inside the button */
+}
+
+
+
+
+.carousel-item img {
+    object-fit: contain;
+    /* Ensures images cover the entire carousel item */
+    height: 400px;
+    /* Adjust the height as needed */
+}
+
+
+/* div.card-body{
+    min-height: 500px;
+} */
